@@ -6,9 +6,31 @@
     <description>Recent content on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
+    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gustavoclay.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About Me</title>
+      <link>https://gustavoclay.github.io/about/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/about/</guid>
+      <description>Gustavo Clay Do Nascimento Lima
+ Analista de Identidade Digital | Estudante | LinuxUser | Programador
+ Sobre min Meu nome é Gustavo Clay, sou Analista de Identidade Digital na Globalweb Outsorcing, alocado no projeto da empresa de telecom OI em sua sede em Brasília/DF. Estou cursando graduação de Bacharelado em Sistemas de Informação pela UDF, sou apaixonado por Programação e Linux, e ouvinte assíduo de Podcast.
+25 anos</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://gustavoclay.github.io/posts/my-first-post/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/posts/my-first-post/</guid>
+      <description>Teste Post</description>
+    </item>
     
   </channel>
 </rss>
