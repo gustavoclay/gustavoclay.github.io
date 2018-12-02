@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>About Me</title>
+      <title>Sobre min</title>
       <link>https://gustavoclay.github.io/about/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -20,15 +20,6 @@
       <description>Gustavo Clay Do Nascimento Lima
  Analista de Identidade Digital | Estudante | LinuxUser | Programador
  ✍ Sobre min Oi 😉, meu nome é Gustavo Clay, profissional com mais de 4 anos de experiência na área de tecnologia, sou Analista de Identidade Digital na Globalweb Outsorcing, alocado no projeto da empresa OI. Estou cursando graduação em Sistemas de Informação pela UDF, sou apaixonado por Programação🍵 e Linux❤, e ouvinte assíduo de Podcasts🎧.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://gustavoclay.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gustavoclay.github.io/posts/my-first-post/</guid>
-      <description>Teste Post</description>
     </item>
     
   </channel>
