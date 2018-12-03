@@ -44,6 +44,7 @@ main {
     border-radius: 50%;
 }
 
+
 /*apply accent colour to links*/
 
 a:link, a:visited {
@@ -97,4 +98,34 @@ footer {
 
 img {
     max-width: 100%;
+}
+
+/*media queries*/
+@media only screen and (max-width: 768px) {
+
+    .intro > .profile {
+        width: 20vh;
+        height: 20vh;
+    }
+    .intro > h1 {
+        font-size: 8vh;
+    }
+
+    .intro > h2 {
+        font-size: 4vmin;
+    }
+
+    footer > .copyright{
+        font-size: 3vmin;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .intro > h1 {
+        font-size: 5vh;
+    }
+
 }
