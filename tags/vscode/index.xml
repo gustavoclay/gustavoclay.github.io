@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gustavo Clay</title>
-    <link>https://gustavoclay.github.io/</link>
-    <description>Recent content on Gustavo Clay</description>
+    <title>Vscode on Gustavo Clay</title>
+    <link>https://gustavoclay.github.io/tags/vscode/</link>
+    <description>Recent content in Vscode on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://gustavoclay.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gustavoclay.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://gustavoclay.github.io/posts/settings-sync/</guid>
       <description>O que é o Settings Sync ? Settings Sync é uma extensão do Visual Studio Code que permite realizar o backup e sincronização das suas configurações na ferramenta. Desenvolvida por Shan Ali Khan, atualmente está na versão 3.2.2 e possui mais 2 milhões de instalações.
 Basicamente o Setting Sync, salva a lista de extensões que está utilizando e a pasta completa de configurações do usuário. Assim que montamos nosso ambiente com configurações pessoais e extensões que utilizamos, a ferramenta se torna muito útil para fazer um backup de todo o ambiente e replica-lo com facilidade.</description>
-    </item>
-    
-    <item>
-      <title>Sobre min</title>
-      <link>https://gustavoclay.github.io/about/</link>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gustavoclay.github.io/about/</guid>
-      <description>Gustavo Clay Do Nascimento Lima
- Analista de Identidade Digital | Estudante | LinuxUser | Programador
- ✍ Sobre min Oi 😉, meu nome é Gustavo Clay, profissional com mais de 4 anos de experiência na área de tecnologia, sou Analista de Identidade Digital na Globalweb Outsorcing, alocado no projeto da empresa OI. Estou cursando graduação em Sistemas de Informação pela UDF, sou apaixonado por Programação🍵 e Linux❤, e ouvinte assíduo de Podcasts🎧.</description>
     </item>
     
   </channel>
