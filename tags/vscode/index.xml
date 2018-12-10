@@ -6,7 +6,7 @@
     <description>Recent content in Vscode on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gustavoclay.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Settings Sync - Backup e Sincronização das configurações do VS code</title>
       <link>https://gustavoclay.github.io/posts/settings-sync/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://gustavoclay.github.io/posts/settings-sync/</guid>
       <description>O que é o Settings Sync ? Settings Sync é uma extensão do Visual Studio Code que permite realizar o backup e sincronização das suas configurações na ferramenta. Desenvolvida por Shan Ali Khan, atualmente está na versão 3.2.2 e possui mais 2 milhões de instalações.
