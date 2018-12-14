@@ -1,157 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-         
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Settings Sync - Backup e Sincronização das configurações do VS code</title>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Gustavo Clay">
+    <meta name="description" content="Web site e blog pessoal de Gustavo Clay">
+    <meta name="keywords" content="blog,developer,personal,gustavoclay,programador,python,java,javascript">
+
+    <base href="https://gustavoclay.github.io/">
+    <title>
+  Settings Sync - Backup e Sincronização das configurações do VS code · Gustavo Clay
+</title>
+
+    <link rel="canonical" href="https://gustavoclay.github.io/posts/settings-sync/">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://gustavoclay.github.io/css/coder.min.cd087ace86754b082dec94545567f8361cba42e84f8e15edbc4a9f6e52bd1f6a.css" integrity="sha256-zQh6zoZ1Swgt7JRUVWf4Nhy6QuhPjhXtvEqfblK9H2o=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://gustavoclay.github.io/css/custom.css">
+    
+
+    <link rel="icon" type="image/png" href="https://gustavoclay.github.io/images/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://gustavoclay.github.io/images/favicon.ico" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.52" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://gustavoclay.github.io/">
+      Gustavo Clay
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
         
-        <link rel="icon" href="https://gustavoclay.github.io/images/favicon.ico">
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gustavoclay.github.io/">Home</a>
+          </li>
         
-        <style>
-
-    html body {
-        font-family: 'Raleway', sans-serif;
-        background-color: white;
-    }
-
-    :root {
-        --accent: red;
-        --border-width:  5px ;
-    }
-
-</style>
-
-
-<link rel="stylesheet" href="https://gustavoclay.github.io/css/main.css">
-
-
-
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-
-
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.52" />
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gustavoclay.github.io/posts/">Blog</a>
+          </li>
         
-
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gustavoclay.github.io/about/">Sobre min</a>
+          </li>
         
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
         
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130260803-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)};
-          gtag('js', new Date());
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Settings Sync - Backup e Sincronização das configurações do VS code</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2018-12-09T00:00:00Z'>
+                12 Dec 2018
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              4 minutes read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://gustavoclay.github.io/tags/vscode/">vscode</a></div>
 
-          gtag('config', 'UA-130260803-1');
-        </script>
+        </div>
+      </header>
+
+      <div>
         
-    </head>
-
-    
-    
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    
-
-    <body>
-         
-        <nav class="navbar navbar-default navbar-fixed-top">
-
-            <div class="container">
-
-                <div class="navbar-header">
-
-                    <a class="navbar-brand visible-xs" href="#">Gustavo Clay</a>
-
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                </div>
-
-                <div class="collapse navbar-collapse">
-
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">Home</a></li>
-                            
-                                <li><a href="/posts/">Blog</a></li>
-                            
-                                <li><a href="/about/">Sobre min</a></li>
-                            
-                        </ul>
-                    
-
-                    
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a target="_blank" href="mailto:gustavoclay@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
-                            
-                                <li class="navbar-icon"><a target="_blank" href="http://telegram.me/gustavoclay"><i class="fa fa-telegram"></i></a></li>
-                            
-                                <li class="navbar-icon"><a target="_blank" href="http://linkedin.com/in/gustavoclay/"><i class="fa fa-linkedin"></i></a></li>
-                            
-                                <li class="navbar-icon"><a target="_blank" href="http://github.com/gustavoclay/"><i class="fa fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a target="_blank" href="http://freecodecamp.org/gustavoclay"><i class="fa fa-free-code-camp"></i></a></li>
-                            
-                        </ul>
-                    
-
-                </div>
-
-            </div>
-
-        </nav>
-
-
-<main>
-
-    <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/posts/settings-sync/">Settings Sync - Backup e Sincronização das configurações do VS code</a></h4>
-    <h5>December 9, 2018</h5>
-    
-    <a href="https://gustavoclay.github.io/tags/vscode"><kbd class="item-tag">vscode</kbd></a>
-    
-
-</div>
-
-
-    <br> <div class="text-justify">
 
 <h1 id="o-que-é-o-settings-sync">O que é o Settings Sync ?</h1>
 
@@ -177,95 +129,76 @@
 <p>Com o VS Code aberto, vá até o menu de extensões, na barra de pesquisa digite <em>Setting Sync</em>, clique na extensão e logo depois, no botão <em>install</em>. Aguarde a instalação e reinicie o VS code para que a extensão seja ativada.</p>
 
 <p>Você tambem pode installar a extensão através do <em>Quick Open</em>. Tecle o atalho Ctrl+P, cole o comando abaixo no menu aberto e tecle enter:</p>
-
-<pre><code>ext install Shan.code-settings-sync
-</code></pre>
-
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">ext install Shan.code-settings-sync</pre></div>
 <h1 id="configurando">Configurando</h1>
 
 <p>Antes de utilizarmos as funcionalidades da extensão, precisamos configurar um Personal Access Token no  Github para que a extensão possa acessar o gist. Siga os passos a seguir:</p>
 
 <p>Logado em sua conta no Github, acesse a opção <em>Settings &gt; Developer settings &gt; Personal access tokens</em>, digite a senha da sua conta, caso seja solicitado e clique na opção <em>Generate New Token</em>.</p>
 
-<p><img src="/images/posts/github1.PNG" alt="passo1" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/github1.PNG" alt="passo1" /></p>
 
 <p>Coloque uma descrição para identificar seu token, marque o checkbox <em>&ldquo;gist&rdquo;</em> e clique em <em>Generate Token</em>.</p>
 
-<p><img src="/images/posts/github2.PNG" alt="passo2" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/github2.PNG" alt="passo2" /></p>
 
 <p>Copie e guarde o codigo do Token, sempre que precisar de configurar a extensão, vai ser necessário este Token. Você pode resgata-lo a qualquer momento novamente através da opção <em>Settings &gt; Developer settings &gt; Personal access tokens</em>.</p>
 
-<p><img src="/images/posts/github3.PNG" alt="passo3" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/github3.PNG" alt="passo3" /></p>
 
 <h1 id="upload-das-suas-configurações">Upload das suas configurações</h1>
 
 <p>Através do Command Palette, pesquise pela opção:</p>
-
-<pre><code>&gt;Sync: update / Upload Settings
-</code></pre>
-
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&gt;Sync: update / Upload Settings</pre></div>
 <p>Esta opção envia todas as suas citadas para o gist, quando utilizada pela primeira vez, vai ser solicitado o seu Token do github gerado no passo acima, coloque o token e aperte Enter:</p>
 
-<p><img src="/images/posts/upload1.png" alt="passo3" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/upload1.png" alt="passo3" /></p>
 
 <p>Neste momento, através do Token fornecido, a extensão vai criar um gist com os arquivos de configuração e vai ter dar um GistID na menssagem de sucesso. O Gist ID é necessário para acessar os dados que você enviou com o seu token. Copie este Gist ID para baixar as configurações para outras máquinas.</p>
 
-<p><img src="/images/posts/upload2.png" alt="passo4" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/upload2.png" alt="passo4" /></p>
 
 <p>Você pode verificar o gist criado com a url:</p>
-
-<pre><code>https://gist.github.com/{userName}/{gist_id}
-</code></pre>
-
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">https://gist.github.com/{userName}/{gist_id}</pre></div>
 <p>Pronto! Suas configurações atuais estão guardadas no gist, sempre que realizar novas configurações no VS Code, va no Command Palette e utilize a <em>&ldquo;Sync: update / Upload Settings&rdquo;</em> que suas novas configurações vão ser registradas no git.</p>
 
 <p>Este gif abaixo contempla toda essa configuração para que não fique dúvidas:</p>
 
-<p><img src="/images/posts/source.gif" alt="upload_process" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/source.gif" alt="upload_process" /></p>
 
 <h1 id="download-das-suas-configurações">Download das suas configurações</h1>
 
 <p>Sempre que precisar fazer o download das suas configurações, através do Command Palette, pesquise pela opção:</p>
-
-<pre><code>&gt;Sync: Donwloading Settings
-</code></pre>
-
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&gt;Sync: Donwloading Settings</pre></div>
 <p>Esta opção faz o download de todas as configurações que estavam salvas no gist, quando utilizada pela primeira vez, vai ser solicitado o seu Token do github e o GistID. O token e o gist precisam ser exatamente os mesmos utilizados e gerados através da configuração acima.</p>
 
 <p>Coloque o token e aperte Enter:</p>
 
-<p><img src="/images/posts/upload1.png" alt="passo1" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/upload1.png" alt="passo1" /></p>
 
 <p>Coloque o GistID e aperte Enter:</p>
 
-<p><img src="/images/posts/download2.png" alt="passo2" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/download2.png" alt="passo2" /></p>
 
 <p>As configurações vão ser baixadas e o extensões instaladas.</p>
 
-<p><img src="/images/posts/download3.png" alt="passo3" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/download3.png" alt="passo3" /></p>
 
 <p>Pronto! Suas configurações que estavam guardadas no gist serão baixadas para o seu VS Code, sempre que tiver novas configurações no gist e desejar atualizar, va no Command Palette e utilize a <em>&ldquo;Sync: Download Settings&rdquo;</em>.</p>
 
 <p>Este gif abaixo contempla toda essa configuração para que não fique dúvidas:</p>
 
-<p><img src="/images/posts/source2.gif" alt="upload_process" /></p>
+<p><img src="https://gustavoclay.github.io/images/posts/source2.gif" alt="upload_process" /></p>
 
 <p><br>
 <br></p>
 
 <p>Para mais informações e outras opções sobre a extensão, acesso o link:
 <a href="http://github.com/shanalikhan/code-settings-sync" target="_blank">github.com/shanalikhan/code-settings-sync</a></p>
-</div>
 
-    
-    
+      </div>
 
-    
-
-    
-
-        <h4 class="page-header">Comments</h4>
-
+      <footer>
         <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
@@ -286,18 +219,43 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </footer>
+    </article>
 
     
+  </section>
 
-</main>
+      </div>
 
-        <footer>
+      <footer class="footer">
+  <section class="container">
+    
+     © 2018
+    
+       · 
+      Powered by <a href="https://github.com/gustavoclay">Gustavo Clay</a> with <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
 
-            <p class="copyright text-muted">&copy; 2018 feito por <a href="http://github.com/gustavoclay" target="_blank">Gustavo Clay</a> utilizando <a href="https://gohugo.io" target="_blank">Hugo</a> e <a href="https://github.com/calintat/minimal" target="_blank">Minimal</a></p>
+    </main>
 
-        </footer>
-       
-    </body>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-130260803-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
 
 </html>
-
