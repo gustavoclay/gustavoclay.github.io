@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 09 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gustavoclay.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dicas para melhorar a perfomance no Eclipse</title>
+      <link>https://gustavoclay.github.io/posts/eclipse-performance/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/posts/eclipse-performance/</guid>
+      <description>Sempre execute o JDK e o Eclipse mais recentes Na maioria das vezes, todas as novas versões do JDK e do Eclipse incluem correções e otimizações de versões anteriores. Certifique-se de estar usando uma versão de 64 bits do Eclipse e do Oracle JDK. Para desenvolvimento que seja web, é melhor usar o Eclipse para Java EE e não o Eclipse para Java.
+Oracle JDK: http://www.oracle.com/technetwork/java/javase/downloads
+Eclipse: https://eclipse.org/downloads/
+Ajustes nas Preferências do Eclipse  General &amp;gt; Startup and Shutdown remova todos os plug-ins ativados na inicialização General &amp;gt; Editors &amp;gt; Text Editors &amp;gt; Spelling Desativar verificação ortográfica General &amp;gt; Validation &amp;gt; Suspend all Suspender todas as validações Window &amp;gt; Customize Perspective Remova itens que você não usa ou deseja (as teclas de atalho são seus amigos) Install/Update &amp;gt; Automatic Updates &amp;gt; Desmarque a opção &amp;ldquo;Automatically find new updates&amp;rdquo; General &amp;gt; Appearance &amp;gt; Desmarque a opção &amp;ldquo;Enable Animations&amp;rdquo;  Em caso de problemas com atraso na resposta da digitação, você pode realizar as configurações abaixo e sempre que precissar de uma &amp;ldquo;assistência&amp;rdquo; ao programar, utilize o Ctrl + Espaço</description>
+    </item>
     
     <item>
       <title>Settings Sync - Backup e Sincronização das configurações do VS code</title>

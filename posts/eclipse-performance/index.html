@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Gustavo Clay">
+    <meta name="description" content="Blog sobre desenvolvimento e Linux. Web site e blog pessoal de gustavoclay.">
+    <meta name="keywords" content="blog,developer,personal,gustavoclay,programador,python,java,javascript,gustavo clay,angular,postgre,spring">
+
+    <base href="https://gustavoclay.github.io/posts/eclipse-performance/">
+    <title>
+  Dicas para melhorar a perfomance no Eclipse · Gustavo Clay
+</title>
+
+    <link rel="canonical" href="https://gustavoclay.github.io/posts/eclipse-performance/">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://gustavoclay.github.io/css/coder.min.c69bf5954f7fea8f2a0bb71d82d5219e668649fdab3dad0d1844dfbe049df7e9.css" integrity="sha256-xpv1lU9/6o8qC7cdgtUhnmaGSf2rPa0NGETfvgSd9&#43;k=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://gustavoclay.github.io/css/custom.css">
+    
+
+    <link rel="icon" type="image/png" href="https://gustavoclay.github.io/images/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://gustavoclay.github.io/images/favicon.ico" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.54.0" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://gustavoclay.github.io/">
+      Gustavo Clay
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gustavoclay.github.io/">Home</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gustavoclay.github.io/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gustavoclay.github.io/about/">Sobre min</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Dicas para melhorar a perfomance no Eclipse</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-03-24T00:00:00Z'>
+                3 Mar 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2 minutes read
+            </span>
+          </div>
+          
+          
+        </div>
+        <div class="shareButtons">
+          <br>
+          <div class="addthis_inline_share_toolbox"></div>
+        </div>
+      </header>
+
+      <div>
+        
+
+<h2 id="sempre-execute-o-jdk-e-o-eclipse-mais-recentes">Sempre execute o JDK e o Eclipse mais recentes</h2>
+
+<p>Na maioria das vezes, todas as novas versões do JDK e do Eclipse incluem correções e otimizações de versões anteriores. Certifique-se de estar usando uma versão de 64 bits do Eclipse e do Oracle JDK. Para desenvolvimento que seja web, é melhor usar o Eclipse para <strong>Java EE</strong> e não o Eclipse para Java.</p>
+
+<p>Oracle JDK:  <a href="http://www.oracle.com/technetwork/java/javase/downloads" target="_blank">http://www.oracle.com/technetwork/java/javase/downloads</a></p>
+
+<p>Eclipse:  <a href="https://eclipse.org/downloads/" target="_blank">https://eclipse.org/downloads/</a></p>
+
+<h2 id="ajustes-nas-preferências-do-eclipse">Ajustes nas Preferências do Eclipse</h2>
+
+<ul>
+<li><strong>General &gt; Startup and Shutdown</strong> remova todos os plug-ins ativados na inicialização</li>
+<li><strong>General &gt; Editors &gt; Text Editors &gt; Spelling</strong> Desativar  verificação ortográfica</li>
+<li><strong>General &gt; Validation &gt; Suspend all</strong> Suspender todas as validações</li>
+<li><strong>Window &gt; Customize Perspective</strong> Remova itens que você não usa ou deseja (as teclas de atalho são seus amigos)</li>
+<li><strong>Install/Update &gt; Automatic Updates &gt;</strong> Desmarque a opção &ldquo;Automatically find new updates&rdquo;</li>
+<li><strong>General &gt; Appearance &gt;</strong> Desmarque a opção &ldquo;Enable Animations&rdquo;</li>
+</ul>
+
+<p>Em caso de problemas com atraso na resposta da digitação, você pode realizar as configurações abaixo e sempre que precissar de uma &ldquo;assistência&rdquo; ao programar, utilize o Ctrl + Espaço</p>
+
+<ul>
+<li><strong>Java &gt; Editor &gt; Content Assist &gt;</strong> Desmarque a opção &ldquo;Enable Auto Activation&rdquo;</li>
+<li><strong>Advanced &gt;</strong> Remover todos os tipos indesejados</li>
+</ul>
+
+<h2 id="use-seu-teclado">Use seu teclado</h2>
+
+<p>Utilize os atalhos da ide ao seu favor! Uma das vantagens do Eclipse é a enorme quantidade de atalhos de teclado que ele oferece. Você pode remapear se estiver acostumado a outros esquemas.</p>
+
+<ul>
+<li><strong>Ctrl + Shift + R</strong> salta para o recurso</li>
+<li><strong>Ctrl + Shift + T</strong> salta para a classe</li>
+<li><strong>Ctrl + :</strong> pular para o próximo erro</li>
+<li><strong>Ctrl + Shift + G</strong> procura por referências</li>
+<li><strong>Ctrl + Shift + P</strong> selecione o par correspondente</li>
+<li><strong>Alt + setas</strong> ir para frente / trás</li>
+<li><strong>Ctrl + Espaço</strong> autocomplete</li>
+<li><strong>Ctrl + Shift + F</strong> fonte de formato</li>
+<li><strong>Ctrl + Shift + O</strong> organiza as importações</li>
+<li><strong>Ctrl + D</strong> excluir linha</li>
+</ul>
+
+<p>Mais atalhos na documentação: <a href="https://www.eclipse.org/pdt/help/html/keymap.htm" target="_blank">https://www.eclipse.org/pdt/help/html/keymap.htm</a></p>
+
+      </div>
+
+      <footer>
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "gustavoclayblog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </footer>
+    </article>
+
+    
+  </section>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c143969cbe865b8" async></script>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+     © 2019
+    
+       · 
+      Powered by <a href="https://github.com/gustavoclay">Gustavo Clay</a> with <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-130260803-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>
