@@ -7,7 +7,7 @@
 
     <meta name="author" content="Gustavo Clay">
     <meta name="description" content="Blog sobre desenvolvimento e Linux. Web site e blog pessoal de gustavoclay.">
-    <meta name="keywords" content="blog,developer,personal,gustavoclay,programador,python,java,javascript,gustavo clay,angular,postgre,spring,angular">
+    <meta name="keywords" content="blog,developer,personal,gustavoclay,programador,python,java,javascript,gustavo clay,angular,postgre,spring,angular,oracle,keycloak">
 
     <base href="https://gustavoclay.github.io/posts/settings-sync/">
     <title>
@@ -39,7 +39,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="generator" content="Hugo 0.64.1" />
   </head>
 
   <body class=" ">
@@ -107,18 +107,11 @@
       </header>
 
       <div>
-        
-
-<h1 id="o-que-é-o-settings-sync">O que é o Settings Sync ?</h1>
-
-<p><a href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync" target="_blank">Settings Sync</a> é uma extensão do Visual Studio Code que permite realizar o backup e sincronização das suas configurações na ferramenta. Desenvolvida por <a href="https://shanalikhan.github.io/" target="_blank">Shan Ali Khan</a>, atualmente está na versão 3.2.2 e possui mais 2 milhões de instalações.</p>
-
-<p>Basicamente o Setting Sync, salva a lista de extensões que está utilizando e a pasta completa de configurações do usuário. Assim que montamos nosso ambiente com configurações pessoais e extensões que utilizamos, a ferramenta se torna muito útil para fazer um backup de todo o ambiente e replica-lo com facilidade. Como ele utilizar o <a href="https://gist.github.com/" target="_blank">gist</a> para salvar essas informações, de quebra, teremos um controle de versão de todas essas configurações.</p>
-
+        <h1 id="o-que-é-o-settings-sync-">O que é o Settings Sync ?</h1>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">Settings Sync</a> é uma extensão do Visual Studio Code que permite realizar o backup e sincronização das suas configurações na ferramenta. Desenvolvida por <a href="https://shanalikhan.github.io/">Shan Ali Khan</a>, atualmente está na versão 3.2.2 e possui mais 2 milhões de instalações.</p>
+<p>Basicamente o Setting Sync, salva a lista de extensões que está utilizando e a pasta completa de configurações do usuário. Assim que montamos nosso ambiente com configurações pessoais e extensões que utilizamos, a ferramenta se torna muito útil para fazer um backup de todo o ambiente e replica-lo com facilidade. Como ele utilizar o <a href="https://gist.github.com/">gist</a> para salvar essas informações, de quebra, teremos um controle de versão de todas essas configurações.</p>
 <h2 id="quais-arquivos-são-sincronizados">Quais arquivos são sincronizados?</h2>
-
 <p>Todas as extensões e a pasta completa de configurações do usuário que contém</p>
-
 <ul>
 <li>Arquivos de Configurações</li>
 <li>Arquivos de atalhos(Keybinding)</li>
@@ -127,78 +120,50 @@
 <li>Extensões VSCode e configurações das extensões</li>
 <li>pastas Workspaces</li>
 </ul>
-
 <h2 id="como-instalar">Como Instalar?</h2>
-
 <p>Com o VS Code aberto, vá até o menu de extensões, na barra de pesquisa digite <em>Setting Sync</em>, clique na extensão e logo depois, no botão <em>install</em>. Aguarde a instalação e reinicie o VS code para que a extensão seja ativada.</p>
-
 <p>Você tambem pode installar a extensão através do <em>Quick Open</em>. Tecle o atalho Ctrl+P, cole o comando abaixo no menu aberto e tecle enter:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">ext install Shan.code-settings-sync</pre></div>
+<pre><code>ext install Shan.code-settings-sync
+</code></pre>
 <h1 id="configurando">Configurando</h1>
-
 <p>Antes de utilizarmos as funcionalidades da extensão, precisamos configurar um Personal Access Token no  Github para que a extensão possa acessar o gist. Siga os passos a seguir:</p>
-
 <p>Logado em sua conta no Github, acesse a opção <em>Settings &gt; Developer settings &gt; Personal access tokens</em>, digite a senha da sua conta, caso seja solicitado e clique na opção <em>Generate New Token</em>.</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/github1.PNG" alt="passo1" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/github1.PNG" alt="passo1"></p>
 <p>Coloque uma descrição para identificar seu token, marque o checkbox <em>&ldquo;gist&rdquo;</em> e clique em <em>Generate Token</em>.</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/github2.PNG" alt="passo2" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/github2.PNG" alt="passo2"></p>
 <p>Copie e guarde o codigo do Token, sempre que precisar de configurar a extensão, vai ser necessário este Token. Você pode resgata-lo a qualquer momento novamente através da opção <em>Settings &gt; Developer settings &gt; Personal access tokens</em>.</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/github3.PNG" alt="passo3" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/github3.PNG" alt="passo3"></p>
 <h1 id="upload-das-suas-configurações">Upload das suas configurações</h1>
-
 <p>Através do Command Palette, pesquise pela opção:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&gt;Sync: update / Upload Settings</pre></div>
+<pre><code>&gt;Sync: update / Upload Settings
+</code></pre>
 <p>Esta opção envia todas as suas citadas para o gist, quando utilizada pela primeira vez, vai ser solicitado o seu Token do github gerado no passo acima, coloque o token e aperte Enter:</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/upload1.png" alt="passo3" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/upload1.png" alt="passo3"></p>
 <p>Neste momento, através do Token fornecido, a extensão vai criar um gist com os arquivos de configuração e vai ter dar um GistID na menssagem de sucesso. O Gist ID é necessário para acessar os dados que você enviou com o seu token. Copie este Gist ID para baixar as configurações para outras máquinas.</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/upload2.png" alt="passo4" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/upload2.png" alt="passo4"></p>
 <p>Você pode verificar o gist criado com a url:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">gist.github.com/{userName}/{gist_id}</pre></div>
+<pre><code>gist.github.com/{userName}/{gist_id}
+</code></pre>
 <p>Pronto! Suas configurações atuais estão guardadas no gist, sempre que realizar novas configurações no VS Code, va no Command Palette e utilize a <em>&ldquo;Sync: update / Upload Settings&rdquo;</em> que suas novas configurações vão ser registradas no git.</p>
-
 <p>Este gif abaixo contempla toda essa configuração para que não fique dúvidas:</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/source.gif" alt="upload_process" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/source.gif" alt="upload_process"></p>
 <h1 id="download-das-suas-configurações">Download das suas configurações</h1>
-
 <p>Sempre que precisar fazer o download das suas configurações, através do Command Palette, pesquise pela opção:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&gt;Sync: Donwloading Settings</pre></div>
+<pre><code>&gt;Sync: Donwloading Settings
+</code></pre>
 <p>Esta opção faz o download de todas as configurações que estavam salvas no gist, quando utilizada pela primeira vez, vai ser solicitado o seu Token do github e o GistID. O token e o gist precisam ser exatamente os mesmos utilizados e gerados através da configuração acima.</p>
-
 <p>Coloque o token e aperte Enter:</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/upload1.png" alt="passo1" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/upload1.png" alt="passo1"></p>
 <p>Coloque o GistID e aperte Enter:</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/download2.png" alt="passo2" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/download2.png" alt="passo2"></p>
 <p>As configurações vão ser baixadas e o extensões instaladas.</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/download3.png" alt="passo3" /></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/download3.png" alt="passo3"></p>
 <p>Pronto! Suas configurações que estavam guardadas no gist serão baixadas para o seu VS Code, sempre que tiver novas configurações no gist e desejar atualizar, va no Command Palette e utilize a <em>&ldquo;Sync: Download Settings&rdquo;</em>.</p>
-
 <p>Este gif abaixo contempla toda essa configuração para que não fique dúvidas:</p>
-
-<p><img src="https://gustavoclay.github.io/images/posts/source2.gif" alt="upload_process" /></p>
-
-<p><br>
-<br></p>
-
+<p><img src="https://gustavoclay.github.io/images/posts/source2.gif" alt="upload_process"></p>
+<!-- raw HTML omitted -->
 <p>Para mais informações e outras opções sobre a extensão, acesso o link:
-<a href="http://github.com/shanalikhan/code-settings-sync" target="_blank">github.com/shanalikhan/code-settings-sync</a></p>
+<a href="http://github.com/shanalikhan/code-settings-sync">github.com/shanalikhan/code-settings-sync</a></p>
 
       </div>
 
@@ -236,7 +201,7 @@
       <footer class="footer">
   <section class="container">
     
-     © 2019
+     © 2020
     
        · 
       Powered by <a href="https://github.com/gustavoclay">Gustavo Clay</a> with <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.

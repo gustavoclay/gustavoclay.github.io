@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gustavo Clay</title>
@@ -6,7 +6,7 @@
     <description>Recent content on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gustavoclay.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,17 +14,14 @@
     <item>
       <title>Sobre min</title>
       <link>https://gustavoclay.github.io/about/</link>
-      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://gustavoclay.github.io/about/</guid>
-      <description>Gustavo Clay Do Nascimento Lima Desenvolvedor Java | Bacharel em Sistemas de Informação
+      <description>Gustavo Clay Do Nascimento Lima Desenvolvedor Fullstack Java | Bacharel em Sistemas de Informação
 ✍ Sobre min
-Oi 😉, meu nome é Gustavo Clay, profissional com mais de 5 anos de experiência na área de tecnologia, atualmente Desenvolvedor Java na EIG / Metareports, formando em Sistemas de Informação pela UDF, apaixonado por Programação🍵 e Linux❤, e ouvinte assíduo de Podcasts🎧.
-😉 25 anos
-⛳ Brasilia/DF
-💌 gustavoclay@gmail.com
-🎓 Educação
-UDF Centro Universitário, Bacharelado em Sistemas de Informação</description>
+Oi 😉, meu nome é Gustavo Clay, profissional com mais de 5 anos de experiência na área de tecnologia, atualmente Desenvolvedor Java na Millenium Brasil e atuando no projeto Poupex. Formando em Sistemas de Informação pela UDF, apaixonado por Programação🍵 e Linux❤, e ouvinte assíduo de Podcasts🎧.
+😉 25 anos⛳ Brasilia/DF💌 gustavoclay@gmail.com
+🎓 Educação</description>
     </item>
     
     <item>
