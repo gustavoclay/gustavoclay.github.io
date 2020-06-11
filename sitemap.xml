@@ -4,12 +4,47 @@
   
   <url>
     <loc>https://gustavoclay.github.io/</loc>
-    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/tags/java/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/tags/jdk/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/tags/jvm/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/posts/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/tags/sdk/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/posts/sdkman/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gustavoclay.github.io/about/</loc>
-    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavoclay.github.io/tags/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +53,12 @@
   </url>
   
   <url>
-    <loc>https://gustavoclay.github.io/posts/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavoclay.github.io/posts/settings-sync/</loc>
+    <loc>https://gustavoclay.github.io/tags/ide/</loc>
     <lastmod>2018-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gustavoclay.github.io/tags/</loc>
+    <loc>https://gustavoclay.github.io/posts/settings-sync/</loc>
     <lastmod>2018-12-09T00:00:00+00:00</lastmod>
   </url>
   

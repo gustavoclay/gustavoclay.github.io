@@ -6,21 +6,30 @@
     <description>Recent content on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gustavoclay.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>SdkMan - O Gerenciador de SDKs</title>
+      <link>https://gustavoclay.github.io/posts/sdkman/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/posts/sdkman/</guid>
+      <description>O que é o SdkMan ? O SdkMan é uma ferramenta para gerenciar versões paralelas de vários kits de desenvolvimento de software(SDKs) na maioria dos sistemas baseados em Unix. Ele fornece uma interface de linha de comando (CLI) que torna facil instalar, alternar, remover e listar SDKs em seu sistema operacional. Com ele conseguimos instalar SDKs para a JVM, como Java, Groovy, Scala, Kotlin e Ceilão. Ant, Gradle, Grails, Maven, SBT, Spark, Spring Boot, Vert.</description>
+    </item>
+    
+    <item>
       <title>Sobre min</title>
       <link>https://gustavoclay.github.io/about/</link>
-      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://gustavoclay.github.io/about/</guid>
       <description>Gustavo Clay Do Nascimento Lima Desenvolvedor Fullstack Java | Bacharel em Sistemas de Informação
 ✍ Sobre min
 Oi 😉, meu nome é Gustavo Clay, profissional com mais de 5 anos de experiência na área de tecnologia, atualmente Desenvolvedor Java na Millenium Brasil e atuando no projeto Poupex. Formando em Sistemas de Informação pela UDF, apaixonado por Programação🍵 e Linux❤, e ouvinte assíduo de Podcasts🎧.
-😉 25 anos⛳ Brasilia/DF💌 gustavoclay@gmail.com
+😉 26 anos⛳ Brasilia/DF💌 gustavoclay@gmail.com
 🎓 Educação</description>
     </item>
     

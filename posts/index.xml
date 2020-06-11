@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gustavoclay.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SdkMan - O Gerenciador de SDKs</title>
+      <link>https://gustavoclay.github.io/posts/sdkman/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/posts/sdkman/</guid>
+      <description>O que é o SdkMan ? O SdkMan é uma ferramenta para gerenciar versões paralelas de vários kits de desenvolvimento de software(SDKs) na maioria dos sistemas baseados em Unix. Ele fornece uma interface de linha de comando (CLI) que torna facil instalar, alternar, remover e listar SDKs em seu sistema operacional. Com ele conseguimos instalar SDKs para a JVM, como Java, Groovy, Scala, Kotlin e Ceilão. Ant, Gradle, Grails, Maven, SBT, Spark, Spring Boot, Vert.</description>
+    </item>
     
     <item>
       <title>Dicas para melhorar a perfomance no Eclipse</title>
