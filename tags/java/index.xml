@@ -6,11 +6,7 @@
     <description>Recent content in java on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://gustavoclay.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SdkMan - O Gerenciador de SDKs</title>
       <link>https://gustavoclay.github.io/posts/sdkman/</link>
