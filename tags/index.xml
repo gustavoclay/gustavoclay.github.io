@@ -6,13 +6,49 @@
     <description>Recent content in Tags on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>driver</title>
+      <link>https://gustavoclay.github.io/tags/driver/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/tags/driver/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>java</title>
       <link>https://gustavoclay.github.io/tags/java/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://gustavoclay.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jdbc</title>
+      <link>https://gustavoclay.github.io/tags/jdbc/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/tags/jdbc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oracle database</title>
+      <link>https://gustavoclay.github.io/tags/oracle-database/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/tags/oracle-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quarkus</title>
+      <link>https://gustavoclay.github.io/tags/quarkus/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/tags/quarkus/</guid>
       <description></description>
     </item>
     

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java on Gustavo Clay</title>
-    <link>https://gustavoclay.github.io/tags/java/</link>
-    <description>Recent content in java on Gustavo Clay</description>
+    <title>driver on Gustavo Clay</title>
+    <link>https://gustavoclay.github.io/tags/driver/</link>
+    <description>Recent content in driver on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/tags/driver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como configurar um banco de dados Oracle no Quarkus</title>
       <link>https://gustavoclay.github.io/posts/quarkus-configurar-banco-oracle/</link>
@@ -16,15 +16,6 @@
       <description>Quarkus até a versão 1.13.1.Final Adicione no pom.xml, dentro da tag dependencies, a dependência de algum driver jdbc do oracle database compatível com a versão do banco de dados que vai ser acessado:
 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.oracle.database.jdbc&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;ojdbc10&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;19.10.0.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; No arquivo de configuração de propriedades, adicione as seguintes propriedades e seus respectivos valores:
 quarkus.datasource.db-kind=other quarkus.datasource.username=&amp;lt;USER&amp;gt; quarkus.datasource.password=&amp;lt;PASSWORD&amp;gt; quarkus.datasource.jdbc.url=jdbc:oracle:thin:@//&amp;lt;HOSTNAME&amp;gt;:&amp;lt;PORT&amp;gt;/&amp;lt;SERVICENAME&amp;gt; quarkus.datasource.jdbc.driver=oracle.jdbc.driver.OracleDriver Quarkus versão 1.13.2.Final e posteriores A partir da versão 1.13.2.Final, foi lançado uma extensão especifica do Oracle JDBC driver, simplificando as configurações necessários e com suporte ao modo nativo.</description>
-    </item>
-    
-    <item>
-      <title>SdkMan - O Gerenciador de SDKs</title>
-      <link>https://gustavoclay.github.io/posts/sdkman/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://gustavoclay.github.io/posts/sdkman/</guid>
-      <description>O que é o SdkMan ? O SdkMan é uma ferramenta para gerenciar versões paralelas de vários kits de desenvolvimento de software(SDKs) na maioria dos sistemas baseados em Unix. Ele fornece uma interface de linha de comando (CLI) que torna facil instalar, alternar, remover e listar SDKs em seu sistema operacional. Com ele conseguimos instalar SDKs para a JVM, como Java, Groovy, Scala, Kotlin e Ceilão. Ant, Gradle, Grails, Maven, SBT, Spark, Spring Boot, Vert.</description>
     </item>
     
   </channel>
