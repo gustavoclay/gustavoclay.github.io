@@ -6,7 +6,17 @@
     <description>Recent content on Gustavo Clay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como visualizar o valor da variável em linha no modo debug do vscode</title>
+      <link>https://gustavoclay.github.io/posts/vscode-debug-inline/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavoclay.github.io/posts/vscode-debug-inline/</guid>
+      <description>O modo debug inline do Visual Studio Code, mostra o valor das variáveis no final da linha de código para facilitar o debug.
+Para ativar a opção, entre na configurações, pesquise o termo &amp;lsquo;debug inline&amp;rsquo; e ative a opção:</description>
+    </item>
+    
     <item>
       <title>Como configurar um banco de dados Oracle no Quarkus</title>
       <link>https://gustavoclay.github.io/posts/quarkus-configurar-banco-oracle/</link>
