@@ -4,60 +4,44 @@
     <title>Posts on Gustavo Clay</title>
     <link>https://gustavoclay.github.io/posts/</link>
     <description>Recent content in Posts on Gustavo Clay</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gustavoclay.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gustavoclay.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como visualizar o valor da variável em linha no modo debug do vscode</title>
       <link>https://gustavoclay.github.io/posts/vscode-debug-inline/</link>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gustavoclay.github.io/posts/vscode-debug-inline/</guid>
-      <description>O modo debug inline do Visual Studio Code, mostra o valor das variáveis no final da linha de código para facilitar o debug.
-Para ativar a opção, entre na configurações, pesquise o termo &amp;lsquo;debug inline&amp;rsquo; e ative a opção:</description>
+      <description>&lt;p&gt;O modo debug inline do Visual Studio Code, mostra o valor das variáveis no final da linha de código para facilitar o debug.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://gustavoclay.github.io/images/posts/vscode-debug-inline/vscode_debug_inline_1.png&#34; alt=&#34;debug_inline_vscode_1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Para ativar a opção, entre na configurações, pesquise o termo &amp;lsquo;debug inline&amp;rsquo; e ative a opção:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://gustavoclay.github.io/images/posts/vscode-debug-inline/vscode_debug_inline_2.png&#34; alt=&#34;debug_inline_vscode_1&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Como configurar um banco de dados Oracle no Quarkus</title>
       <link>https://gustavoclay.github.io/posts/quarkus-configurar-banco-oracle/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gustavoclay.github.io/posts/quarkus-configurar-banco-oracle/</guid>
-      <description>Quarkus até a versão 1.13.1.Final Adicione no pom.xml, dentro da tag dependencies, a dependência de algum driver jdbc do oracle database compatível com a versão do banco de dados que vai ser acessado:
-&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.oracle.database.jdbc&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;ojdbc10&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;19.10.0.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; No arquivo de configuração de propriedades, adicione as seguintes propriedades e seus respectivos valores:
-quarkus.datasource.db-kind=other quarkus.datasource.username=&amp;lt;USER&amp;gt; quarkus.datasource.password=&amp;lt;PASSWORD&amp;gt; quarkus.datasource.jdbc.url=jdbc:oracle:thin:@//&amp;lt;HOSTNAME&amp;gt;:&amp;lt;PORT&amp;gt;/&amp;lt;SERVICENAME&amp;gt; quarkus.datasource.jdbc.driver=oracle.jdbc.driver.OracleDriver Quarkus versão 1.13.2.Final e posteriores A partir da versão 1.13.2.Final, foi lançado uma extensão especifica do Oracle JDBC driver, simplificando as configurações necessários e com suporte ao modo nativo.</description>
+      <description>&lt;h1 id=&#34;quarkus-até-a-versão-1131final&#34;&gt;Quarkus até a versão 1.13.1.Final&lt;/h1&gt;&#xA;&lt;p&gt;Adicione no pom.xml, dentro da tag dependencies, a dependência de algum driver jdbc do oracle database compatível com a versão do banco de dados que vai ser acessado:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.oracle.database.jdbc&lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;ojdbc10&lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;version&amp;gt;&lt;/span&gt;19.10.0.0&lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;No arquivo de configuração de propriedades, adicione as seguintes propriedades e seus respectivos valores:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quarkus.datasource.db-kind=other&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quarkus.datasource.username=&amp;lt;USER&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quarkus.datasource.password=&amp;lt;PASSWORD&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quarkus.datasource.jdbc.url=jdbc:oracle:thin:@//&amp;lt;HOSTNAME&amp;gt;:&amp;lt;PORT&amp;gt;/&amp;lt;SERVICENAME&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quarkus.datasource.jdbc.driver=oracle.jdbc.driver.OracleDriver&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;quarkus-versão-1132final-e-posteriores&#34;&gt;Quarkus versão 1.13.2.Final e posteriores&lt;/h1&gt;&#xA;&lt;p&gt;A partir da versão 1.13.2.Final, foi lançado uma extensão especifica do Oracle JDBC driver, simplificando as configurações necessários e com suporte ao modo nativo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SdkMan - O Gerenciador de SDKs</title>
       <link>https://gustavoclay.github.io/posts/sdkman/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gustavoclay.github.io/posts/sdkman/</guid>
-      <description>O que é o SdkMan ? O SdkMan é uma ferramenta para gerenciar versões paralelas de vários kits de desenvolvimento de software(SDKs) na maioria dos sistemas baseados em Unix. Ele fornece uma interface de linha de comando (CLI) que torna facil instalar, alternar, remover e listar SDKs em seu sistema operacional. Com ele conseguimos instalar SDKs para a JVM, como Java, Groovy, Scala, Kotlin e Ceilão. Ant, Gradle, Grails, Maven, SBT, Spark, Spring Boot, Vert.</description>
+      <description>&lt;h1 id=&#34;o-que-é-o-sdkman-&#34;&gt;O que é o SdkMan ?&lt;/h1&gt;&#xA;&lt;p&gt;O &lt;a href=&#34;https://sdkman.io/&#34;&gt;SdkMan&lt;/a&gt; é uma ferramenta para gerenciar versões paralelas de vários kits de desenvolvimento de software(SDKs) na maioria dos sistemas baseados em Unix. Ele fornece uma interface de linha de comando (CLI) que torna facil instalar, alternar, remover e listar SDKs em seu sistema operacional. Com ele conseguimos instalar SDKs para a JVM, como Java, Groovy, Scala, Kotlin e Ceilão. Ant, Gradle, Grails, Maven, SBT, Spark, Spring Boot, Vert.x e muitos outros também são suportados.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dicas para melhorar a perfomance no Eclipse</title>
       <link>https://gustavoclay.github.io/posts/eclipse-performance/</link>
       <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gustavoclay.github.io/posts/eclipse-performance/</guid>
-      <description>Sempre execute o JDK e o Eclipse mais recentes Na maioria das vezes, todas as novas versões do JDK e do Eclipse incluem correções e otimizações de versões anteriores. Certifique-se de estar usando uma versão de 64 bits do Eclipse e do Oracle JDK. Para desenvolvimento que seja web, é melhor usar o Eclipse para Java EE e não o Eclipse para Java.
-Oracle JDK: http://www.oracle.com/technetwork/java/javase/downloads
-Eclipse: https://eclipse.org/downloads/
-Ajustes nas Preferências do Eclipse  General &amp;gt; Startup and Shutdown remova todos os plug-ins ativados na inicialização General &amp;gt; Editors &amp;gt; Text Editors &amp;gt; Spelling Desativar verificação ortográfica General &amp;gt; Validation &amp;gt; Suspend all Suspender todas as validações Window &amp;gt; Customize Perspective Remova itens que você não usa ou deseja (as teclas de atalho são seus amigos) Install/Update &amp;gt; Automatic Updates &amp;gt; Desmarque a opção &amp;ldquo;Automatically find new updates&amp;rdquo; General &amp;gt; Appearance &amp;gt; Desmarque a opção &amp;ldquo;Enable Animations&amp;rdquo;  Em caso de problemas com atraso na resposta da digitação, você pode realizar as configurações abaixo e sempre que precissar de uma &amp;ldquo;assistência&amp;rdquo; ao programar, utilize o Ctrl + Espaço</description>
+      <description>&lt;h2 id=&#34;sempre-execute-o-jdk-e-o-eclipse-mais-recentes&#34;&gt;Sempre execute o JDK e o Eclipse mais recentes&lt;/h2&gt;&#xA;&lt;p&gt;Na maioria das vezes, todas as novas versões do JDK e do Eclipse incluem correções e otimizações de versões anteriores. Certifique-se de estar usando uma versão de 64 bits do Eclipse e do Oracle JDK. Para desenvolvimento que seja web, é melhor usar o Eclipse para &lt;strong&gt;Java EE&lt;/strong&gt; e não o Eclipse para Java.&lt;/p&gt;&#xA;&lt;p&gt;Oracle JDK:  &lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads&#34;&gt;http://www.oracle.com/technetwork/java/javase/downloads&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Eclipse:  &lt;a href=&#34;https://eclipse.org/downloads/&#34;&gt;https://eclipse.org/downloads/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;ajustes-nas-preferências-do-eclipse&#34;&gt;Ajustes nas Preferências do Eclipse&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;General &amp;gt; Startup and Shutdown&lt;/strong&gt; remova todos os plug-ins ativados na inicialização&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;General &amp;gt; Editors &amp;gt; Text Editors &amp;gt; Spelling&lt;/strong&gt; Desativar  verificação ortográfica&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;General &amp;gt; Validation &amp;gt; Suspend all&lt;/strong&gt; Suspender todas as validações&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Window &amp;gt; Customize Perspective&lt;/strong&gt; Remova itens que você não usa ou deseja (as teclas de atalho são seus amigos)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Install/Update &amp;gt; Automatic Updates &amp;gt;&lt;/strong&gt; Desmarque a opção &amp;ldquo;Automatically find new updates&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;General &amp;gt; Appearance &amp;gt;&lt;/strong&gt; Desmarque a opção &amp;ldquo;Enable Animations&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Em caso de problemas com atraso na resposta da digitação, você pode realizar as configurações abaixo e sempre que precissar de uma &amp;ldquo;assistência&amp;rdquo; ao programar, utilize o Ctrl + Espaço&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Settings Sync - Backup e Sincronização das configurações do VS code</title>
       <link>https://gustavoclay.github.io/posts/settings-sync/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gustavoclay.github.io/posts/settings-sync/</guid>
-      <description>O que é o Settings Sync ? Settings Sync é uma extensão do Visual Studio Code que permite realizar o backup e sincronização das suas configurações na ferramenta. Desenvolvida por Shan Ali Khan, atualmente está na versão 3.2.2 e possui mais 2 milhões de instalações.
-Basicamente o Setting Sync, salva a lista de extensões que está utilizando e a pasta completa de configurações do usuário. Assim que montamos nosso ambiente com configurações pessoais e extensões que utilizamos, a ferramenta se torna muito útil para fazer um backup de todo o ambiente e replica-lo com facilidade.</description>
+      <description>&lt;h1 id=&#34;o-que-é-o-settings-sync-&#34;&gt;O que é o Settings Sync ?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&#34;&gt;Settings Sync&lt;/a&gt; é uma extensão do Visual Studio Code que permite realizar o backup e sincronização das suas configurações na ferramenta. Desenvolvida por &lt;a href=&#34;https://shanalikhan.github.io/&#34;&gt;Shan Ali Khan&lt;/a&gt;, atualmente está na versão 3.2.2 e possui mais 2 milhões de instalações.&lt;/p&gt;&#xA;&lt;p&gt;Basicamente o Setting Sync, salva a lista de extensões que está utilizando e a pasta completa de configurações do usuário. Assim que montamos nosso ambiente com configurações pessoais e extensões que utilizamos, a ferramenta se torna muito útil para fazer um backup de todo o ambiente e replica-lo com facilidade. Como ele utilizar o &lt;a href=&#34;https://gist.github.com/&#34;&gt;gist&lt;/a&gt; para salvar essas informações, de quebra, teremos um controle de versão de todas essas configurações.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
